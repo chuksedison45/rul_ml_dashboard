@@ -1,0 +1,28 @@
+rul_dashboard_template/
+├── outputs/                  ← Demo metrics files
+│   ├── metrics_rf.json
+│   ├── metrics_dl.json
+├── utils/
+│   └── dashboard_utils.py
+├── dashboard.py              ← Streamlit app
+├── README.md                 ← Auto-generated section
+├── demo_config.yaml          ← Sample config
+└── requirements.txt
+
+## Recommended File Structure
+rul_dashboard/
+├── dashboard.py
+├── config/
+│   └── model_configs.json          ← 📄 Model config file (editable)
+├── data/
+│   └── rul_dataset.csv             ← 📄 Your real dataset
+├── outputs/
+│   └── metrics_*.json              ← 📄 Auto-generated metrics files
+├── utils/
+│   ├── pipeline.py                 ← 🧠 Main training pipeline
+│   ├── model_builder.py           ← 🛠️ Build models from config
+│   ├── file_io.py                 ← 📁 File loading utilities
+│   └── validation.py              ← ✅ Schema validation
+├── dashboard.log
+├── requirements.txt
+└── README.md

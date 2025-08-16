@@ -1,0 +1,36 @@
+2025-08-16 04:23:45,556 - INFO - \U0001f680 Training model: RandomForest
+2025-08-16 04:23:54,508 - INFO - \U0001f4ca Saved metrics to outputs\metrics_RandomForest.json
+2025-08-16 04:23:54,516 - INFO - \U0001f4c1 Saved model JSON to models\RandomForest.json
+2025-08-16 04:23:54,516 - INFO - \U0001f680 Training model: GradientBoosting
+2025-08-16 04:23:58,096 - INFO - \U0001f4ca Saved metrics to outputs\metrics_GradientBoosting.json
+2025-08-16 04:23:58,105 - INFO - \U0001f4c1 Saved model JSON to models\GradientBoosting.json
+2025-08-16 04:23:58,106 - INFO - \U0001f680 Training model: Ridge
+2025-08-16 04:23:58,123 - INFO - \U0001f4ca Saved metrics to outputs\metrics_Ridge.json
+2025-08-16 04:23:58,131 - INFO - \U0001f4c1 Saved model JSON to models\Ridge.json
+2025-08-16 04:23:58,131 - INFO - \U0001f680 Training model: SVR
+2025-08-16 04:24:09,931 - INFO - \U0001f4ca Saved metrics to outputs\metrics_SVR.json
+2025-08-16 04:24:09,938 - INFO - \U0001f4c1 Saved model JSON to models\SVR.json
+2025-08-16 04:24:09,938 - INFO - \U0001f680 Training model: XGBoost
+2025-08-16 04:24:09,938 - ERROR - \u274c Failed to train XGBoost: Unsupported model type: XGBoost
+2025-08-16 04:24:09,939 - INFO - \U0001f680 Training model: LinearRegression
+2025-08-16 04:24:09,959 - INFO - \U0001f4ca Saved metrics to outputs\metrics_LinearRegression.json
+2025-08-16 04:24:09,966 - INFO - \U0001f4c1 Saved model JSON to models\LinearRegression.json
+2025-08-16 04:24:09,967 - WARNING - \u26a0\ufe0f Missing model files: ['XGBoost']
+2025-08-16 04:33:18,853 - INFO - \U0001f680 Training model: RandomForest
+2025-08-16 04:33:27,754 - INFO - \U0001f4ca Saved metrics to outputs\metrics_RandomForest.json
+2025-08-16 04:33:27,763 - INFO - \U0001f4c1 Saved model JSON to models\RandomForest.json
+2025-08-16 04:33:27,764 - INFO - \U0001f680 Training model: GradientBoosting
+2025-08-16 04:33:31,441 - INFO - \U0001f4ca Saved metrics to outputs\metrics_GradientBoosting.json
+2025-08-16 04:33:31,451 - INFO - \U0001f4c1 Saved model JSON to models\GradientBoosting.json
+2025-08-16 04:33:31,451 - INFO - \U0001f680 Training model: Ridge
+2025-08-16 04:33:31,469 - INFO - \U0001f4ca Saved metrics to outputs\metrics_Ridge.json
+2025-08-16 04:33:31,478 - INFO - \U0001f4c1 Saved model JSON to models\Ridge.json
+2025-08-16 04:33:31,478 - INFO - \U0001f680 Training model: SVR
+2025-08-16 04:33:43,404 - INFO - \U0001f4ca Saved metrics to outputs\metrics_SVR.json
+2025-08-16 04:33:43,414 - INFO - \U0001f4c1 Saved model JSON to models\SVR.json
+2025-08-16 04:33:43,414 - INFO - \U0001f680 Training model: XGBoost
+2025-08-16 04:33:43,414 - ERROR - \u274c Failed to train XGBoost: Unsupported model type: XGBoost
+2025-08-16 04:33:43,414 - INFO - \U0001f680 Training model: LinearRegression
+2025-08-16 04:33:43,437 - INFO - \U0001f4ca Saved metrics to outputs\metrics_LinearRegression.json
+2025-08-16 04:33:43,445 - INFO - \U0001f4c1 Saved model JSON to models\LinearRegression.json
+2025-08-16 04:33:43,445 - WARNING - \u26a0\ufe0f Missing model files: ['XGBoost']

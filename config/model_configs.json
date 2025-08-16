@@ -1,0 +1,31 @@
+[
+  {
+    "name": "RandomForest",
+    "model": "RandomForest",
+    "params": {"n_estimators": 100, "max_depth": 10}
+  },
+  {
+    "name": "GradientBoosting",
+    "model": "GradientBoosting",
+    "params": {"n_estimators": 100, "learning_rate": 0.1}
+  },
+  {
+    "name": "Ridge",
+    "model": "Ridge",
+    "params": {"alpha": 1.0}
+  },
+  {
+    "name": "SVR",
+    "model": "SVR",
+    "params": {"C": 1.0, "kernel": "rbf"}
+  },{
+    "name": "XGBoost",
+    "model": "XGBoost",
+    "params": {"n_estimators": 100, "max_depth": 10}
+  },
+  {
+    "name": "LinearRegression",
+    "model": "LinearRegression",
+    "params": {}
+  }
+]

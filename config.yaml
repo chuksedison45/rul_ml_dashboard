@@ -1,0 +1,36 @@
+
+---
+
+## ⚙️ `config.yaml`
+
+data:
+  path: data/processed/train.csv
+  target: RUL
+
+features:
+  scale: true
+  pca:
+    n_components: 5
+  select_k_best:
+    k: 10
+
+models:
+  ml:
+    type: RandomForestRegressor
+    params:
+      n_estimators: 100
+      max_depth: 5
+      random_state: 42
+  dl:
+    type: MLP
+    batch_size: 32
+    lr: 0.001
+    epochs: 50
+    params:
+      hidden_layers: [64, 32]
+      epochs: 50
+      batch_size: 32
+
+dashboard:
+  enable: true
+  tabs: ["PCA", "FeatureImportance"]

@@ -1,0 +1,40 @@
+
+---
+
+## 🧭 Add GitHub Contribution Guide
+
+Create `CONTRIBUTING.md`:
+
+```markdown
+# 🤝 Contributing Guide
+
+Thanks for considering a contribution! Here's how to get started:
+
+## 🧰 Setup
+
+- Fork the repo
+- Clone your fork
+- Create a new branch: `feature/my-feature`
+- Install dependencies: `pip install -r requirements.txt`
+
+## 🧪 Testing
+
+- Run `streamlit run dashboard.py`
+- Check for errors, broken plots, or missing exports
+
+## 📤 Submitting
+
+- Push your branch
+- Open a pull request
+- Use clear titles and link related issues
+
+## ✅ Checklist
+
+- [ ] Feature works as expected
+- [ ] No breaking changes
+- [ ] README or docs updated
+- [ ] Added labels (`enhancement`, `bug`, etc.)
+
+## 💬 Questions?
+
+Open an issue with the `question` label. We're happy to help!

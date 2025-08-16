@@ -1,0 +1,20 @@
+rul_dashboard/
+├── data/
+│   └── processed/                  # Cleaned training data
+├── artifacts/                      # Saved PCA, selector, plots
+├── notebooks/                      # Optional EDA or prototyping
+├── src/
+│   ├── features/
+│   │   ├── transform.py            # Lag features, smoothing
+│   │   ├── select.py               # PCA, SelectKBest
+│   ├── models/
+│   │   ├── train_ml.py             # ML training + importance
+│   │   ├── train_dl.py             # DL training
+│   ├── dashboard/
+│   │   ├── layout.py               # Dashboard layout
+│   │   ├── feature_tab.py          # PCA + importance plots
+│   ├── utils/
+│   │   ├── io.py                   # Save/load artifacts
+│   │   ├── plot.py                 # Matplotlib/Plotly helpers
+├── main.py                         # Entry point
+├── README.md
