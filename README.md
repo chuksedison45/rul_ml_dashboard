@@ -32,7 +32,7 @@ Built with Streamlit, scikit-learn, and XGBoost — designed for transparency, o
 ## 🛠️ Setup
 
 ```bash
-git clone https://github.com/your-username/ml-dashboard.git
-cd ml-dashboard
+git clone https://github.com/chuksedison45/rul_ml-dashboard.git
+cd rul_ml_dashboard
 pip install -r requirements.txt
-streamlit run dashboard.py
+streamlit run dashboard_refresh.py
